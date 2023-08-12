@@ -160,7 +160,7 @@ def main():
     wave_length = 5
     enemy_vel = 1
 
-    player_vel = 15
+    player_vel = 25
     laser_vel = 5
 
     player = Player(300, 630)
