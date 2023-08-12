@@ -161,10 +161,10 @@ def main():
     wave_length = 5
     enemy_vel = 1
 
-    player_vel = 15
-    laser_vel = 25
+    player_vel = 10
+    laser_vel = 15
 
-    player = Player(500, 500)
+    player = Player(300, 630)
 
     clock = pygame.time.Clock()
 
