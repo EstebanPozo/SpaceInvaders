@@ -3,7 +3,8 @@ import os
 import time
 import random
 pygame.font.init()
-#feature2
+#test11
+#feature 1
 WIDTH, HEIGHT = 750, 750
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Space Shooter Tutorial")
@@ -46,7 +47,7 @@ class Laser:
 
 
 class Ship:
-    COOLDOWN = 20
+    COOLDOWN = 30
 
     def __init__(self, x, y, health=100):
         self.x = x
@@ -160,7 +161,7 @@ def main():
     wave_length = 5
     enemy_vel = 1
 
-    player_vel = 25
+    player_vel = 5
     laser_vel = 5
 
     player = Player(300, 630)
